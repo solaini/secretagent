@@ -80,16 +80,15 @@ footer{
     height: 25rem;
 }
 .headline{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
     margin-top: 9rem;
     color: white;
     background-color: black;
     width: 20rem;
+}
 
-}
-.container.headline{
-    display: flex;
-    justify-content: flex-start;
-}
  .title{
     background-color: black;
     width: 35%;
